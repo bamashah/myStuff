@@ -1,2 +1,2 @@
 # myStuff
-My code samples 1
+My code samples 2
