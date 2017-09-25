@@ -7,7 +7,7 @@ import org.junit.Test;
 public class MathTest {
 
 	@Test
-	public void test() {
+	public void testAdd() {
 		int a = 1;
 		int b = 5;
 		Math math = new Math();
@@ -16,4 +16,13 @@ public class MathTest {
 		assertEquals(expected, actual);
 	}
 
+	@Test
+	public void testSubstract() {
+		int a = 7;
+		int b = 4;
+		Math math = new Math();
+		int expected = 3;
+		int actual = math.substract(a, b);
+		assertEquals(expected, actual);
+	}
 }
