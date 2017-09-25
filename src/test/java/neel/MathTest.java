@@ -25,4 +25,14 @@ public class MathTest {
 		int actual = math.substract(a, b);
 		assertEquals(expected, actual);
 	}
+
+	@Test
+	public void testMultiply() {
+		int a = 3;
+		int b = 3;
+		Math math = new Math();
+		int expected = 9;
+		int actual = math.multiply(a, b);
+		assertEquals(expected, actual);
+	}
 }
