@@ -35,4 +35,14 @@ public class MathTest {
 		int actual = math.multiply(a, b);
 		assertEquals(expected, actual);
 	}
+
+	@Test
+	public void testDivide() {
+		int a = 6;
+		int b = 3;
+		Math math = new Math();
+		int expected = 2;
+		int actual = math.divide(a, b);
+		assertEquals(expected, actual);
+	}
 }
